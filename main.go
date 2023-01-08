@@ -10,7 +10,7 @@ import (
 
 	"github.com/hashicorp/raft"
 
-	fsm "github.com/herrhu97/raft-demo/memfsm"
+	"github.com/herrhu97/raft-demo/fsm"
 	myraft "github.com/herrhu97/raft-demo/raftwrapper"
 )
 

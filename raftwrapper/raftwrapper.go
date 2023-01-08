@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	fsm "github.com/herrhu97/raft-demo/memfsm"
+	"github.com/herrhu97/raft-demo/fsm"
 
 	"github.com/hashicorp/raft"
 	raftboltdb "github.com/hashicorp/raft-boltdb"
